@@ -6,7 +6,7 @@ def vowel_count(string)
     string.each do |letter|
       if letter == vowel
         count += 1
-    end
+      end
     end
   end
   count
