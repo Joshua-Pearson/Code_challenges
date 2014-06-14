@@ -28,4 +28,12 @@ type of object, ie calling .join on a hash. Another example is if you try to cal
 QUESTION 4
 ========================
 
+Yield is usually used in a block or in a layout heading where it will yield the body of each webpage after putting some stuff
+surrounding it. Yield stops what is going on and yields to that thing.
 
+QUESTION 5 
+========================
+
+MVC or Model, View, Controller is a way of separating concerns when building a web application. The view deals with the user experience, the models are where
+most of our classes and methods should be and the controller is the conductor that brings information from our models to the user through business logic or 
+deciding which aspects of our models need to be accessed. 
