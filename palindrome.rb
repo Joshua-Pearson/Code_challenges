@@ -1,3 +1,8 @@
+#Directions: write a method called is_palindrome that returns true if a word is a palindrome or false if it isn't. 
+#Don't use any built in string reversing methods! Only loops, iterators, or recursion.
+
+
+# iterative
 def is_palindrome(word)
   start = 0
   finish = word.length - 1

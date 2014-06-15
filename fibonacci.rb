@@ -1,3 +1,5 @@
+#Fibonnaci: Write a method to return the Nth number of Fibonacci sequence.
+
 ##recursive
 def fibonacci(n)
   if n <= 2 ## or 1 depending on if they want the position in the array

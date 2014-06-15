@@ -1,3 +1,4 @@
+# Merging: That is, given two sorted arrays like the following we must merge them into one sorted array.
 # iterative
 
 def merge(array1, array2)

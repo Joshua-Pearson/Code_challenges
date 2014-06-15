@@ -1,3 +1,4 @@
+#String Scramble: Create a function string_scramble(str1,str2) that takes two strings. If a portion of str1 characters can be rearranged to match str2 return true, otherwise return false.
 def string_scramble(str1, str2)
   str1 = str1.downcase.split("")
   str2 = str2.downcase.split("")
