@@ -5,7 +5,8 @@ def string_scramble(str1, str2)
   if str1.length < str2.length
     str1.each do |letter|
       if str2.include?(letter)
-        str2.delete(letter)
+        deleted_index = str1.index(letter)
+        str1.delete_at(deleted_index)
       else
         return false
       end
@@ -13,7 +14,8 @@ def string_scramble(str1, str2)
   else
     str2.each do |letter|
       if str1.include?(letter)
-        str1.delete(letter)
+        deleted_index = str1.index(letter)
+        str1.delete_at(deleted_index)
       else
         return false
       end

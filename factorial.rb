@@ -15,7 +15,7 @@ end
 def factorial(num)
   result = 1
   if num <= 1
-    1
+    result
   else
     while num > 1
       result *= num

@@ -16,7 +16,7 @@ def fibonacci(n)
   prev = 1
   prev_prev = 1
   if n <= 2
-    1
+    n
   else
     i = 2
     while i < n
